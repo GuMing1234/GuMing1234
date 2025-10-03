@@ -1,7 +1,7 @@
 # 你好，我是GuMing1234
 **自我介绍：** 我是一名大一新生，是新手小白，尝试在GitHub上构建一个空间，去分享我的所学所得，致力帮助更多的人。
 ## 🚀 关于我
-
+![GuMing1234's GitHub stats](https://github-readme-stats.vercel.app/api?username=GuMing1234)
 - 🏫 **教育背景**: [东北大学秦皇岛分校] 计算机科学与技术专业 大一
 - 💡 **兴趣方向**: 网络安全 | 红蓝对抗 | CTF竞赛
 - 🌱 **当前学习**: 
