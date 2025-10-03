@@ -1,16 +1,71 @@
-## Hi there 👋
+# 你好，我是GuMing1234
+**自我介绍：** 我是一名大一新生，是新手小白，尝试在GitHub上构建一个空间，去分享我的所学所得，致力帮助更多的人。
+## 🚀 关于我
 
-<!--
-**GuMing1234/GuMing1234** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🏫 **教育背景**: [东北大学秦皇岛分校] 计算机科学与技术专业 大一
+- 💡 **兴趣方向**: 网络安全 | 红蓝对抗 | CTF竞赛
+- 🌱 **当前学习**: 
+  - 深入掌握 C++ 与算法（备战ACM/CTF）
+  - 探索 Python 在安全领域的应用
+  - 系统学习 Web 安全与二进制安全基础
+- 🎯 **短期目标**: 建立完整的网络安全知识体系，参与第一场CTF比赛
+- 📚 **学习理念**: 理论结合实践，通过动手实验加深理解
 
-Here are some ideas to get you started:
+## 🛠 技术栈
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**编程语言**
+- `C++` - 竞赛与底层开发
+- `Python` - 自动化与安全工具开发
+
+**安全技能**
+- 目前无，但我会尽快学习的
+
+**工具熟悉**
+- 目前无，但我会尽快学习的
+
+## 📂 项目展示
+
+### 🔥 精选项目
+
+
+### 📝 学习笔记与实验
+
+我在学习过程中记录了详细的技术笔记和实验报告：
+
+- [《Web 安全学习笔记》](./notes/web-security-notes.md)
+- [《C++ 内存管理深入理解》](./notes/cpp-memory.md)
+- [《Linux 权限提升实验》](./labs/linux-privilege-escalation)
+
+## 📊 GitHub 统计
+
+![你的GitHub统计数据](https://github-readme-stats.vercel.app/api?username=你的用户名&show_icons=true&theme=radical)
+
+![最常用语言](https://github-readme-stats.vercel.app/api/top-langs/?username=你的用户名&layout=compact&theme=radical)
+
+## 📈 学习进度
+
+**2025年学习目标**
+- [ ] 完成 50+ CTF 题目
+- [ ] 阅读 3 本网络安全经典书籍
+- [ ] 开发 2-3 个完整的安全工具
+- [ ] 在博客发布 12+ 篇技术文章
+
+**当前进行中**
+- 🔄 学习《计算机网络安全与实验教程》
+- 🔄 在攻防世界平台刷题
+- 🔄 搭建个人安全实验环境
+
+## 📬 联系我
+
+欢迎交流技术、分享学习心得！
+
+- 📧 **邮箱**: [song13703594591@qq.com]
+- 🌐 **博客**: [暂无]
+
+## 🎯 未来规划
+
+我计划在大二确定专攻方向（Web安全/二进制安全），并寻求安全相关的实习机会。长期目标是成为一名优秀的安全研究员。
+
+---
+
+⭐ *感谢访问我的主页！如果我的项目对你有帮助，请给我个 Star 鼓励一下~*
