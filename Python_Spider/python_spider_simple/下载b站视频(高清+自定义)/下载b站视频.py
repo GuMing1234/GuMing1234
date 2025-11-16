@@ -25,7 +25,7 @@ class download_bilibili_video():
     'sec-fetch-site': 'cross-site',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0',
 }
-        self.cookies={
+        self.cookies = {
     'buvid3': 'CAC74196-AF2D-DC5F-7D75-3BE784B60C5369103infoc',
     'b_nut': '1755753969',
     '_uuid': 'F92AB7BE-EEFC-4E6D-89CC-CDFACB910163669829infoc',
@@ -33,22 +33,27 @@ class download_bilibili_video():
     'rpdid': "|(k|kYm||RmJ0J'u~ll~lJm~|",
     'buvid4': 'F037168B-5710-4585-336F-2B996370EA1F70283-025082113-Q/JmEATAD/6zxQoRtL208g%3D%3D',
     'enable_web_push': 'DISABLE',
-    'home_feed_column': '4',
-    'browser_resolution': '1272-721',
-    'bsource': 'search_bing',
-    'bili_ticket': 'eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTkzNzAwNzUsImlhdCI6MTc1OTExMDgxNSwicGx0IjotMX0.7nV16FeDfbEO1g8mw7x2IM0fvXvG8-RRj8rxFmbRcj8',
-    'bili_ticket_expires': '1759370015',
-    'SESSDATA': '22da3ba7%2C1774662901%2C19bd2%2A91CjAPL3cb5H1y8g9fePFVbmJpD_DmIbsUpxM7AWxbwwR4BCjbLSHGSfxCSPRIiOBn25wSVjRFYTc3R0tfZFVtbV8zN1FtNXN0cWFVMjRBZW1DdUxzOFRXMW5PUGxLamJRSm13RTZMdmdGWm9adE5TcGJINzBQZEpha29pTjJTUWVNbG1UWTYwdnJBIIEC',
-    'bili_jct': '5b3bd3fc44304750c703715707fdf526',
     'DedeUserID': '414870071',
     'DedeUserID__ckMd5': 'd4151ed73a476984',
-    'CURRENT_FNVAL': '4048',
     'theme-tip-show': 'SHOWED',
-    'sid': '58yi3v99',
-    'b_lsid': '823B9B77_19993811395',
-    'CURRENT_QUALITY': '80',
     'theme-avatar-tip-show': 'SHOWED',
-    'bp_t_offset_414870071': '1117895599631368192',
+    'CURRENT_QUALITY': '80',
+    'home_feed_column': '4',
+    'browser_resolution': '1272-721',
+    'b_lsid': '3E104BDC1_19A8C76A011',
+    'bsource': 'search_bing',
+    'bmg_af_switch': '1',
+    'bmg_src_def_domain': 'i1.hdslb.com',
+    'bili_ticket': 'eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NjM1NTIzNzYsImlhdCI6MTc2MzI5MzExNiwicGx0IjotMX0.z1MWHLXSCiYYMww_L7edLkR30HE-F5IjU5VRrDEFkKg',
+    'bili_ticket_expires': '1763552316',
+    'SESSDATA': 'c8942342%2C1778845176%2Cf6a17%2Ab2CjC4lXIIu-IZ_WK8FQV3RB4JDepMo1GHYUTmbjvBmzA21BdlrLvGIpkmErd3h06NztgSVnl6ajVwVU5DLXVqTHBMZDhDcTZ4TXRrUzM5d0xaRjNBcXFUR1g0RGlrME9CMHViampmeE5jcDZCR0N6U0pTaTZobllwRENjQ1ZDUm50aWlEZ1hyajVnIIEC',
+    'bili_jct': '0760ce682a5771f14db56025a698159f',
+    'CURRENT_FNVAL': '4048',
+    '_qimei_uuid42': '19b10132a301009392b99841434ddba9db0d2bb497',
+    '_qimei_fingerprint': '783ffd6317414455af78a2872b55a07f',
+    '_qimei_i_3': '40c05bd4905d038d9596f73959d277e6f2bcf6f412090780b6db2051709a293863633f943c89e29b9497',
+    'sid': '6p1dzpd3',
+    'bp_t_offset_414870071': '1135826186149036032',
 }
         self.h={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"}
     def get_json(self):
@@ -95,6 +100,7 @@ class download_bilibili_video():
 
 
     def add_video_audio(self):
+        print("正在合并视频和音频...")
         subprocess.run([
             'ffmpeg',
             '-i', 'video.mp4',
